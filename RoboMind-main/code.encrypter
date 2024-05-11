@@ -1,0 +1,26 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Por favor ingresa el primer numero:");
+        string numero1 = Console.ReadLine();
+        int num1 = Convert.ToInt32(numero1);
+
+        Console.WriteLine("Por favor ingresa el segundo numero:");
+        string numero2 = Console.ReadLine();
+        int num2 = Convert.ToInt32(numero2);
+
+        for (int i = 0; i < num1;i++ )
+        {
+            int mult = mult + num2; // Multiplicar num1 por num2 y sumar al resultado actual
+        }
+
+        if (mult > 10)
+        {
+            Console.WriteLine("El resultado es mayor a 10");
+        }
+        Console.WriteLine("El resultado es menorl a 10");
+    }
+}
